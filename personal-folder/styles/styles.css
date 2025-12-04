@@ -131,8 +131,8 @@ footer .social img{
 }
 .subpage-grid{
   display: grid;
-  grid-template-columns: 10fr;
-  grid-template-rows: 10fr;
+  grid-template-columns: 20%, 20%, 20%, 20%, 20%,;
+  grid-template-rows: 20%, 20%, 20%, 20%, 20%;
 }
 main section img{
   box-sizing: border-box;
@@ -164,6 +164,36 @@ main section img{
 }
 .logo {
   width: 80px;
+  height: 80px;
+}
+img{
+  width: 150px;
+  height: 150px;
+}
+.tetra-card{
+  margin: 200px 0;
+  grid-column: 1;
+  grid-row: 2/3;
+}
+.cube-card{
+  margin: 200px 0;
+  grid-column: 3;
+  grid-row: 2/3;
+}
+.octa-card{
+  margin: 200px 0;
+  grid-column: 5;
+  grid-row: 2/3;
+}
+.dodeca-card{
+  margin: 200px 0;
+  grid-column: 2;
+  grid-row: 3/4;
+}
+.icosa-card{
+  margin: 200px 0;
+  grid-column: 4;
+  grid-row: 3/4;
 }
 .three-card{
   margin: 200px 0;
