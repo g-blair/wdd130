@@ -134,6 +134,12 @@ footer .social img{
   grid-template-columns: 20%, 20%, 20%, 20%, 20%,;
   grid-template-rows: 20%, 20%, 20%, 20%, 20%;
 }
+.subpage2-grid{
+  margin: 200px;
+  display: grid;
+  grid-template-columns: 20%, 20%, 20%, 20%, 20%,;
+  grid-template-rows: 20%, 20%, 20%, 20%, 20%;
+}
 main section img{
   box-sizing: border-box;
 }
